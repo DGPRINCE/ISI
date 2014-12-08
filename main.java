@@ -1,3 +1,4 @@
+
 public ArrayList<Conge> ListCong()
      {
         ArrayList<Conge> liste=new ArrayList<Conge>();
@@ -21,4 +22,5 @@ public ArrayList<Conge> ListCong()
                         
                     }
          return liste;
+         JOptionpane.ShowMessageDialog(null, "Bonjour bienvenu sur githud");
          }
