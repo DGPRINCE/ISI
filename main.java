@@ -1,6 +1,7 @@
 
 public ArrayList<Conge> ListCong()
      {
+          //partie editer par khady
         ArrayList<Conge> liste=new ArrayList<Conge>();
          try
          {//Mr regarde moi la ligne suivatn sa marche pas
@@ -15,7 +16,8 @@ public ArrayList<Conge> ListCong()
                          cong.setCodePer(rs.getInt("code_per"));
                          liste.add(cong);
                      }
-         }
+         }//fin edition apr khady
+         //debutedit mariam
                     catch(SQLException ex)
                     {
                         System.out.println(ex.getMessage());
